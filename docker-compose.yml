@@ -1,0 +1,8 @@
+version: "3.9"
+  
+services:
+  frontend:
+    build: ./part1
+    container_name: frontend
+    ports:
+      - 80:5173
